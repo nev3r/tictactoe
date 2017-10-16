@@ -1,0 +1,31 @@
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<title>PLAYGROUND</title>
+<body onload="chooseSide()">
+	<div id = "message"></div>
+	<table>
+		<tr>
+			<td id="s1" class="square" onclick="nextMove(this)"></td>
+			<td id="s2" class="square" onclick="nextMove(this)"></td>
+			<td id="s3" class="square" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td id="s4" class="square" onclick="nextMove(this)"></td>
+			<td id="s5" class="square" onclick="nextMove(this)"></td>
+			<td id="s6" class="square" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td id="s7" class="square" onclick="nextMove(this)"></td>
+			<td id="s8" class="square" onclick="nextMove(this)"></td>
+			<td id="s9" class="square" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<div id="newGame">
+    <a href="javascript:chooseSide();">New Game</a>
+  </div>
+</body>
